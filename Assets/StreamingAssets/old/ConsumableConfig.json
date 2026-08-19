@@ -1,0 +1,95 @@
+{
+    "Consumables": [
+        {
+            "ItemId": "Gold",
+            "Name": "金币",
+            "Description": "通用货币，用于升级角色、武器等",
+            "IconPath": "",
+            "ItemType": "Currency"
+        },
+        {
+            "ItemId": "Diamond",
+            "Name": "钻石",
+            "Description": "珍贵货币，用于抽卡等高级功能",
+            "IconPath": "",
+            "ItemType": "Currency"
+        },
+        {
+            "ItemId": "StarDust",
+            "Name": "星尘",
+            "Description": "用于强化星魂的神秘粉末",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "TalentBook",
+            "Name": "天赋书",
+            "Description": "用于升级天赋的古老书籍",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "SkillGem",
+            "Name": "技能宝石",
+            "Description": "蕴含技能力量的宝石",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "Warrior_Shard",
+            "Name": "战士碎片",
+            "Description": "战士的灵魂碎片",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "Mage_Shard",
+            "Name": "法师碎片",
+            "Description": "法师的灵魂碎片",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "Archer_Shard",
+            "Name": "弓箭手碎片",
+            "Description": "弓箭手的灵魂碎片",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "Healer_Shard",
+            "Name": "治疗师碎片",
+            "Description": "治疗师的灵魂碎片",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "UpgradeStone",
+            "Name": "强化石",
+            "Description": "用于强化武器的石头",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "RefiningAgent",
+            "Name": "精炼剂",
+            "Description": "用于精炼装备的试剂",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "EnchantDust",
+            "Name": "附魔尘",
+            "Description": "用于附魔的神秘尘粉",
+            "IconPath": "",
+            "ItemType": "Material"
+        },
+        {
+            "ItemId": "MagicCrystal",
+            "Name": "魔法水晶",
+            "Description": "蕴含魔力的水晶",
+            "IconPath": "",
+            "ItemType": "Material"
+        }
+    ]
+}

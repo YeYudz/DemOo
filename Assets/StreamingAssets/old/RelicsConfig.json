@@ -1,0 +1,990 @@
+{
+    "Relics":  [
+                   {
+                       "RelicId":  "WarriorHelm",
+                       "Name":  "战士头盔",
+                       "Slot":  0,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  0,
+                                        "MinValue":  100,
+                                        "MaxValue":  300,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "战神套装",
+                       "SetEffect1":  "基础属性+5%",
+                       "SetEffect2":  "技能伤害+10%"
+                   },
+                   {
+                       "RelicId":  "MageHat",
+                       "Name":  "法师帽",
+                       "Slot":  0,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  0,
+                                        "MinValue":  80,
+                                        "MaxValue":  250,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  7,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  false
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "奥术套装",
+                       "SetEffect1":  "技能伤害+5%",
+                       "SetEffect2":  "暴击伤害+15%"
+                   },
+                   {
+                       "RelicId":  "ArcherCap",
+                       "Name":  "猎人帽",
+                       "Slot":  0,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  0,
+                                        "MinValue":  70,
+                                        "MaxValue":  200,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  7,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  false
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "猎手套装",
+                       "SetEffect1":  "速度+8%",
+                       "SetEffect2":  "暴击率+10%"
+                   },
+                   {
+                       "RelicId":  "HealerVeil",
+                       "Name":  "治愈面纱",
+                       "Slot":  0,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  0,
+                                        "MinValue":  90,
+                                        "MaxValue":  280,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "圣愈套装",
+                       "SetEffect1":  "治疗效果+10%",
+                       "SetEffect2":  "最大生命+5%"
+                   },
+                   {
+                       "RelicId":  "IronGauntlets",
+                       "Name":  "铁制护手",
+                       "Slot":  1,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  1,
+                                        "MinValue":  20,
+                                        "MaxValue":  60,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "战神套装",
+                       "SetEffect1":  "基础属性+5%",
+                       "SetEffect2":  "技能伤害+10%"
+                   },
+                   {
+                       "RelicId":  "MagicGloves",
+                       "Name":  "魔法手套",
+                       "Slot":  1,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  1,
+                                        "MinValue":  25,
+                                        "MaxValue":  70,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  7,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  false
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "奥术套装",
+                       "SetEffect1":  "技能伤害+5%",
+                       "SetEffect2":  "暴击伤害+15%"
+                   },
+                   {
+                       "RelicId":  "LeatherArms",
+                       "Name":  "皮革护腕",
+                       "Slot":  1,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  1,
+                                        "MinValue":  18,
+                                        "MaxValue":  50,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  7,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  false
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "猎手套装",
+                       "SetEffect1":  "速度+8%",
+                       "SetEffect2":  "暴击率+10%"
+                   },
+                   {
+                       "RelicId":  "HolyWrists",
+                       "Name":  "神圣护腕",
+                       "Slot":  1,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  1,
+                                        "MinValue":  22,
+                                        "MaxValue":  65,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "圣愈套装",
+                       "SetEffect1":  "治疗效果+10%",
+                       "SetEffect2":  "最大生命+5%"
+                   },
+                   {
+                       "RelicId":  "BattleArmor",
+                       "Name":  "战神战甲",
+                       "Slot":  2,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  2,
+                                        "MinValue":  5,
+                                        "MaxValue":  20,
+                                        "IsPercent":  true
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  2,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  3,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "战神套装",
+                       "SetEffect1":  "基础属性+5%",
+                       "SetEffect2":  "技能伤害+10%"
+                   },
+                   {
+                       "RelicId":  "ArcaneRobe",
+                       "Name":  "奥术长袍",
+                       "Slot":  2,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  3,
+                                        "MinValue":  5,
+                                        "MaxValue":  20,
+                                        "IsPercent":  true
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  2,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  3,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "奥术套装",
+                       "SetEffect1":  "技能伤害+5%",
+                       "SetEffect2":  "暴击伤害+15%"
+                   },
+                   {
+                       "RelicId":  "HunterCoat",
+                       "Name":  "猎人皮甲",
+                       "Slot":  2,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  7,
+                                        "MinValue":  8,
+                                        "MaxValue":  25,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  2,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  3,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "猎手套装",
+                       "SetEffect1":  "速度+8%",
+                       "SetEffect2":  "暴击率+10%"
+                   },
+                   {
+                       "RelicId":  "PriestRobe",
+                       "Name":  "祭司法袍",
+                       "Slot":  2,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  4,
+                                        "MinValue":  5,
+                                        "MaxValue":  15,
+                                        "IsPercent":  true
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  2,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  3,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  20,
+                                                     "IsPercent":  true
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "圣愈套装",
+                       "SetEffect1":  "治疗效果+10%",
+                       "SetEffect2":  "最大生命+5%"
+                   },
+                   {
+                       "RelicId":  "SwiftBoots",
+                       "Name":  "迅捷战靴",
+                       "Slot":  3,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  7,
+                                        "MinValue":  10,
+                                        "MaxValue":  30,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  7,
+                                                     "MinValue":  10,
+                                                     "MaxValue":  30,
+                                                     "IsPercent":  false
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  6,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "战神套装",
+                       "SetEffect1":  "基础属性+5%",
+                       "SetEffect2":  "技能伤害+10%"
+                   },
+                   {
+                       "RelicId":  "ArcaneBoots",
+                       "Name":  "奥术长靴",
+                       "Slot":  3,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  5,
+                                        "MinValue":  5,
+                                        "MaxValue":  15,
+                                        "IsPercent":  true
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  7,
+                                                     "MinValue":  10,
+                                                     "MaxValue":  30,
+                                                     "IsPercent":  false
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  7,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  false
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "奥术套装",
+                       "SetEffect1":  "技能伤害+5%",
+                       "SetEffect2":  "暴击伤害+15%"
+                   },
+                   {
+                       "RelicId":  "HunterBoots",
+                       "Name":  "猎人战靴",
+                       "Slot":  3,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  7,
+                                        "MinValue":  12,
+                                        "MaxValue":  35,
+                                        "IsPercent":  false
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  7,
+                                                     "MinValue":  10,
+                                                     "MaxValue":  30,
+                                                     "IsPercent":  false
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  2,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  3,
+                                                    "MinValue":  5,
+                                                    "MaxValue":  10,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "猎手套装",
+                       "SetEffect1":  "速度+8%",
+                       "SetEffect2":  "暴击率+10%"
+                   },
+                   {
+                       "RelicId":  "HealerBoots",
+                       "Name":  "治愈之靴",
+                       "Slot":  3,
+                       "Rarity":  3,
+                       "MainStat":  {
+                                        "StatType":  6,
+                                        "MinValue":  5,
+                                        "MaxValue":  15,
+                                        "IsPercent":  true
+                                    },
+                       "PossibleMainStats":  [
+                                                 {
+                                                     "StatType":  4,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  5,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  6,
+                                                     "MinValue":  5,
+                                                     "MaxValue":  15,
+                                                     "IsPercent":  true
+                                                 },
+                                                 {
+                                                     "StatType":  7,
+                                                     "MinValue":  10,
+                                                     "MaxValue":  30,
+                                                     "IsPercent":  false
+                                                 }
+                                             ],
+                       "PossibleSubStats":  [
+                                                {
+                                                    "StatType":  0,
+                                                    "MinValue":  25,
+                                                    "MaxValue":  50,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  1,
+                                                    "MinValue":  8,
+                                                    "MaxValue":  15,
+                                                    "IsPercent":  false
+                                                },
+                                                {
+                                                    "StatType":  4,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                },
+                                                {
+                                                    "StatType":  5,
+                                                    "MinValue":  2,
+                                                    "MaxValue":  5,
+                                                    "IsPercent":  true
+                                                }
+                                            ],
+                       "SubStatCount":  3,
+                       "IconPath":  "",
+                       "SetName":  "圣愈套装",
+                       "SetEffect1":  "治疗效果+10%",
+                       "SetEffect2":  "最大生命+5%"
+                   }
+               ]
+}

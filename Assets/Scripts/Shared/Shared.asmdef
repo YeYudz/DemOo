@@ -1,0 +1,22 @@
+{
+    "name": "Shared",
+    "rootNamespace": "Game.Shared",
+    "references": [
+        "Unity.2021.3",
+        "UnityEngine.UI",
+        "YokiFrame",
+        "YokiFrame.UIKit",
+        "YokiFrame.Unity.Runtime",
+        "YokiFrame.Unity.UIKit",
+        "YokiFrame.AudioKit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

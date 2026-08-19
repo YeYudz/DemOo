@@ -1,0 +1,363 @@
+{
+    "Skills": [
+        {
+            "SkillId": "Warrior_NormalAttack",
+            "Name": "普通攻击",
+            "Description": "对指定敌方单体造成等同于Warrior的70%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 70,
+            "CharacterId": "Warrior"
+        },
+        {
+            "SkillId": "Warrior_Skill1",
+            "Name": "血怒一击",
+            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成120%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 120,
+            "SelfHpCostPercent": 0.30,
+            "SecondaryEffect": 5,
+            "SecondaryValue": 30,
+            "SecondaryDuration": 3,
+            "CharacterId": "Warrior"
+        },
+        {
+            "SkillId": "Warrior_Skill2",
+            "Name": "破甲斩",
+            "Description": "对指定敌方单体造成100%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+            "Cost": 1,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 100,
+            "SecondaryEffect": 10,
+            "SecondaryValue": 12,
+            "SecondaryDuration": 2,
+            "CharacterId": "Warrior"
+        },
+        {
+            "SkillId": "Warrior_Ultimate",
+            "Name": "鲜血献祭",
+            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成130%攻击力的伤害",
+            "Cost": 4,
+            "EffectType": 0,
+            "TargetType": 3,
+            "Value": 130,
+            "CharacterId": "Warrior"
+        },
+        {
+            "SkillId": "Mage_NormalAttack",
+            "Name": "普通攻击",
+            "Description": "对指定敌方单体造成等同于Mage的30%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 30,
+            "CharacterId": "Mage"
+        },
+        {
+            "SkillId": "Mage_Skill1",
+            "Name": "奥术增幅",
+            "Description": "指定我方单体目标提升20%攻击力，持续二回合",
+            "Cost": 2,
+            "EffectType": 5,
+            "TargetType": 1,
+            "Value": 20,
+            "Duration": 2,
+            "CharacterId": "Mage"
+        },
+        {
+            "SkillId": "Mage_Skill2",
+            "Name": "奥术洞察",
+            "Description": "50%概率从牌库中随机抽取2张手牌",
+            "Cost": 1,
+            "EffectType": 3,
+            "TargetType": 0,
+            "Value": 2,
+            "Probability": 50,
+            "CharacterId": "Mage"
+        },
+        {
+            "SkillId": "Mage_Ultimate",
+            "Name": "奥术重构",
+            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+            "Cost": 3,
+            "EffectType": 15,
+            "TargetType": 0,
+            "Value": 0,
+            "CharacterId": "Mage"
+        },
+        {
+            "SkillId": "Archer_NormalAttack",
+            "Name": "普通攻击",
+            "Description": "对指定敌方单体造成等同于Archer的105%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 105,
+            "CharacterId": "Archer"
+        },
+        {
+            "SkillId": "Archer_Skill1",
+            "Name": "急行军",
+            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高20%，持续一回合",
+            "Cost": 2,
+            "EffectType": 16,
+            "TargetType": 1,
+            "Value": 100,
+            "SecondaryEffect": 11,
+            "SecondaryValue": 20,
+            "SecondaryDuration": 1,
+            "CharacterId": "Archer"
+        },
+        {
+            "SkillId": "Archer_Skill2",
+            "Name": "穿甲箭",
+            "Description": "对指定敌方单体造成等同于Archer的120%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+            "Cost": 3,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 120,
+            "SecondaryEffect": 8,
+            "SecondaryValue": 12,
+            "SecondaryDuration": 2,
+            "CharacterId": "Archer"
+        },
+        {
+            "SkillId": "Archer_Ultimate",
+            "Name": "激励号令",
+            "Description": "使我方全体攻击力提高20%，暴击伤害提高10%（Archer自身额外+10%），持续二回合",
+            "Cost": 5,
+            "EffectType": 5,
+            "TargetType": 4,
+            "Value": 20,
+            "Duration": 2,
+            "SecondaryEffect": 13,
+            "SecondaryValue": 10,
+            "SecondaryDuration": 2,
+            "CharacterId": "Archer"
+        },
+        {
+            "SkillId": "Healer_NormalAttack",
+            "Name": "普通攻击",
+            "Description": "对指定敌方单体造成等同于Healer的10%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 10,
+            "CharacterId": "Healer"
+        },
+        {
+            "SkillId": "Healer_Skill1",
+            "Name": "治疗术",
+            "Description": "立即为指定我方单体回复等同于Healer自身的11%生命上限+50的生命值",
+            "Cost": 2,
+            "EffectType": 1,
+            "TargetType": 1,
+            "Value": 50,
+            "HealPercent": 11,
+            "CharacterId": "Healer"
+        },
+        {
+            "SkillId": "Healer_Skill2",
+            "Name": "虚弱诅咒",
+            "Description": "使指定敌方单体造成的伤害降低10%，持续二回合",
+            "Cost": 2,
+            "EffectType": 6,
+            "TargetType": 2,
+            "Value": 10,
+            "Duration": 2,
+            "CharacterId": "Healer"
+        },
+        {
+            "SkillId": "Healer_Ultimate",
+            "Name": "神圣治愈",
+            "Description": "立即为我方全体回复等同于Healer自身14%生命上限+70的生命值",
+            "Cost": 4,
+            "EffectType": 1,
+            "TargetType": 4,
+            "Value": 70,
+            "HealPercent": 14,
+            "CharacterId": "Healer"
+        },
+        {
+            "SkillId": "Assassin_NormalAttack",
+            "Name": "普通攻击",
+            "Description": "对指定敌方单体造成等同于Assassin的100%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 100,
+            "CharacterId": "Assassin"
+        },
+        {
+            "SkillId": "Assassin_Skill1",
+            "Name": "影袭",
+            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成等同于Assassin自身110%攻击力的伤害",
+            "Cost": 2,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 110,
+            "CharacterId": "Assassin"
+        },
+        {
+            "SkillId": "Assassin_Skill2",
+            "Name": "刺杀状态",
+            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+            "Cost": 2,
+            "EffectType": 2,
+            "TargetType": 0,
+            "Value": 0,
+            "Duration": 2,
+            "CharacterId": "Assassin"
+        },
+        {
+            "SkillId": "Assassin_Ultimate",
+            "Name": "神鬼无赦",
+            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成等同于Assassin自身150%攻击力的伤害",
+            "Cost": 3,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 150,
+            "CharacterId": "Assassin"
+        },
+        {
+            "SkillId": "Knight_NormalAttack",
+            "Name": "圣光斩",
+            "Description": "对指定敌方单体造成等同于Knight的60%攻击力的伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 60,
+            "CharacterId": "Knight"
+        },
+        {
+            "SkillId": "Knight_Skill1",
+            "Name": "圣盾庇护",
+            "Description": "为我方全体提供能够抵消等同于Knight自身12%防御力+120伤害的护盾，持续三回合",
+            "Cost": 2,
+            "EffectType": 4,
+            "TargetType": 4,
+            "Value": 120,
+            "HealPercent": 12,
+            "Duration": 3,
+            "CharacterId": "Knight"
+        },
+        {
+            "SkillId": "Knight_Skill2",
+            "Name": "圣光惩戒",
+            "Description": "对指定敌方单体造成等同于Knight自身100%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低20%，持续一回合",
+            "Cost": 1,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 100,
+            "SecondaryEffect": 6,
+            "SecondaryValue": 20,
+            "SecondaryDuration": 1,
+            "Probability": 65,
+            "CharacterId": "Knight"
+        },
+        {
+            "SkillId": "Knight_Ultimate",
+            "Name": "圣裁",
+            "Description": "对指定敌方单体造成等同于Knight自身120%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+            "Cost": 3,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 120,
+            "CharacterId": "Knight"
+        },
+        {
+            "SkillId": "Slime_Attack",
+            "Name": "撞击",
+            "Description": "对敌人造成80%攻击力伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 80,
+            "CharacterId": "Slime"
+        },
+        {
+            "SkillId": "Goblin_Stab",
+            "Name": "刺杀",
+            "Description": "对敌人造成100%攻击力伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 100,
+            "CharacterId": "Goblin"
+        },
+        {
+            "SkillId": "Goblin_Throw",
+            "Name": "投掷",
+            "Description": "对敌人造成120%攻击力伤害",
+            "Cost": 1,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 120,
+            "CharacterId": "Goblin"
+        },
+        {
+            "SkillId": "Skeleton_SwordSlash",
+            "Name": "剑斩",
+            "Description": "对敌人造成90%攻击力伤害",
+            "Cost": 0,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 90,
+            "CharacterId": "Skeleton"
+        },
+        {
+            "SkillId": "DarkMage_Fireball",
+            "Name": "暗火球",
+            "Description": "对敌人造成150%攻击力伤害",
+            "Cost": 2,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 150,
+            "CharacterId": "DarkMage"
+        },
+        {
+            "SkillId": "DarkMage_Curse",
+            "Name": "诅咒",
+            "Description": "对敌人造成持续伤害",
+            "Cost": 1,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 80,
+            "CharacterId": "DarkMage"
+        },
+        {
+            "SkillId": "Dragon_Breath",
+            "Name": "龙息",
+            "Description": "对所有敌人造成200%攻击力伤害",
+            "Cost": 3,
+            "EffectType": 0,
+            "TargetType": 3,
+            "Value": 200,
+            "CharacterId": "Boss_Dragon"
+        },
+        {
+            "SkillId": "Dragon_TailWhip",
+            "Name": "甩尾",
+            "Description": "对敌人造成150%攻击力伤害",
+            "Cost": 1,
+            "EffectType": 0,
+            "TargetType": 2,
+            "Value": 150,
+            "CharacterId": "Boss_Dragon"
+        },
+        {
+            "SkillId": "Dragon_Roar",
+            "Name": "龙吼",
+            "Description": "对敌人造成震慑",
+            "Cost": 2,
+            "EffectType": 0,
+            "TargetType": 3,
+            "Value": 100,
+            "CharacterId": "Boss_Dragon"
+        }
+    ]
+}

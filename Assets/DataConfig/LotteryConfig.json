@@ -1,0 +1,55 @@
+{
+  "Pools": [
+    {
+      "PoolId": "limited_character",
+      "PoolName": "限定角色池",
+      "PoolType": "LimitedCharacter",
+      "DiamondCost": 160,
+      "TenDrawCost": 1600,
+      "GuaranteedFourStarEvery": 10,
+      "GuaranteedFiveStarEvery": 90,
+      "HasUpSystem": true,
+      "UpFiveStarIds": ["Archer"],
+      "UpFourStarIds": ["Healer","Warrior"],
+      "FiveStarItemIds": [],
+      "FourStarItemIds": [],
+      "ThreeStarItemIds": [],
+      "BaseFiveStarRate": 0.006,
+      "BaseFourStarRate": 0.051
+    },
+    {
+      "PoolId": "limited_weapon",
+      "PoolName": "限定武器池",
+      "PoolType": "LimitedWeapon",
+      "DiamondCost": 160,
+      "TenDrawCost": 1600,
+      "GuaranteedFourStarEvery": 10,
+      "GuaranteedFiveStarEvery": 90,
+      "HasUpSystem": true,
+      "UpFiveStarIds": ["WorldBow"],
+      "UpFourStarIds": ["FlameSword", "ShadowSpear"],
+      "FiveStarItemIds": [],
+      "FourStarItemIds": [],
+      "ThreeStarItemIds": [],
+      "BaseFiveStarRate": 0.006,
+      "BaseFourStarRate": 0.051
+    },
+    {
+      "PoolId": "permanent",
+      "PoolName": "常驻池",
+      "PoolType": "Permanent",
+      "DiamondCost": 160,
+      "TenDrawCost": 1600,
+      "GuaranteedFourStarEvery": 10,
+      "GuaranteedFiveStarEvery": 90,
+      "HasUpSystem": false,
+      "UpFiveStarIds": [],
+      "UpFourStarIds": [],
+      "FiveStarItemIds": [],
+      "FourStarItemIds": [],
+      "ThreeStarItemIds": [],
+      "BaseFiveStarRate": 0.006,
+      "BaseFourStarRate": 0.051
+    }
+  ]
+}

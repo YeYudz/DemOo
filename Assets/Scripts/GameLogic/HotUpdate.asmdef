@@ -1,0 +1,24 @@
+{
+    "name": "HotUpdate",
+    "rootNamespace": "Game.GameLogic",
+    "references": [
+        "Shared",
+        "Unity.2021.3",
+        "UnityEngine.UI",
+        "YooAsset",
+        "YokiFrame",
+        "YokiFrame.Unity",
+        "YokiFrame.Unity.Runtime",
+        "YokiFrame.UIKit",
+        "YokiFrame.Unity.UIKit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

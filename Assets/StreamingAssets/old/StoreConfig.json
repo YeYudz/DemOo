@@ -1,0 +1,227 @@
+{
+    "StoreItems": [
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "DivineWand",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "WindBow",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "AncientGrimoire",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "FireStaff",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "ShadowSpear",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "FlameSword",
+            "Price": 500,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "IronSword",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "LongSpear",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "WoodenStaff",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "BasicGrimoire",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "HuntersBow",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Weapon",
+            "ItemType": "Weapon",
+            "ItemId": "HealingWand",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 1,
+            "Quantity":1
+        },{
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "ArcherCap",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "LeatherArms",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "HunterCoat",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "HunterBoots",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "MageHat",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "MagicGloves",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "ArcaneRobe",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },
+        {
+            "Category": "Relic",
+            "ItemType": "Relic",
+            "ItemId": "ArcaneBoots",
+            "Price": 300,
+            "Currency": "Diamond",
+            "Stock": 1,
+            "Quantity":1
+        },{
+            "Category": "Other",
+            "ItemType": "Consumable",
+            "ItemId": "UpgradeStone",
+            "Price": 50,
+            "Currency": "Gold",
+            "Stock": 15,
+            "Quantity":10
+        },
+        {
+            "Category": "Other",
+            "ItemType": "Consumable",
+            "ItemId": "RefiningAgent",
+            "Price": 80,
+            "Currency": "Gold",
+            "Stock": 15,
+            "Quantity":10
+        },
+        {
+            "Category": "Other",
+            "ItemType": "Consumable",
+            "ItemId": "EnchantDust",
+            "Price": 120,
+            "Currency": "Gold",
+            "Stock": 15,
+            "Quantity":10
+        },
+        {
+            "Category": "Other",
+            "ItemType": "Consumable",
+            "ItemId": "MagicCrystal",
+            "Price": 200,
+            "Currency": "Gold",
+            "Stock": 15,
+            "Quantity":10
+        },
+        {
+            "Category": "Other",
+            "ItemType": "Consumable",
+            "ItemId": "Diamond",
+            "Price": 100,
+            "Currency": "Gold",
+            "Stock": 10,
+            "Quantity":160
+        }
+    ]
+}

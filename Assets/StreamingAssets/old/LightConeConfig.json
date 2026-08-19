@@ -1,0 +1,292 @@
+{
+    "Weapons": [
+        {
+            "WeaponId": "WorldBow",
+            "Name": "界弓",
+            "WeaponType": 4,
+            "CompatibleClasses": [2],
+            "Rarity": 5,
+            "BaseAttack": 100,
+            "BaseDefense": 10,
+            "BaseMaxHp": 10,
+            "Effects": [
+                {
+                    "EffectId": "DarkShadow",
+                    "EffectName": "晦影",
+                    "Description": "普通攻击造成250%攻击力伤害",
+                    "Value": 2.5,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "IronSword",
+            "Name": "铁剑",
+            "WeaponType": 0,
+            "CompatibleClasses": [0],
+            "Rarity": 3,
+            "BaseAttack": 50,
+            "BaseDefense": 10,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "IronSlash",
+                    "EffectName": "铁刃斩",
+                    "Description": "普通攻击造成110%攻击力伤害",
+                    "Value": 1.1,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "FlameSword",
+            "Name": "烈焰之剑",
+            "WeaponType": 0,
+            "CompatibleClasses": [0],
+            "Rarity": 4,
+            "BaseAttack": 80,
+            "BaseDefense": 15,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "FlameStrike",
+                    "EffectName": "烈焰冲击",
+                    "Description": "释放技能后增加自身20%攻击力，持续2回合",
+                    "Value": 0.2,
+                    "Duration": 2
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "LongSpear",
+            "Name": "长枪",
+            "WeaponType": 1,
+            "CompatibleClasses": [0],
+            "Rarity": 3,
+            "BaseAttack": 60,
+            "BaseDefense": 5,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "Pierce",
+                    "EffectName": "穿刺",
+                    "Description": "对单体敌人造成120%攻击力伤害",
+                    "Value": 1.2,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "ShadowSpear",
+            "Name": "暗影长枪",
+            "WeaponType": 1,
+            "CompatibleClasses": [0],
+            "Rarity": 4,
+            "BaseAttack": 90,
+            "BaseDefense": 10,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "ShadowStrike",
+                    "EffectName": "暗影突袭",
+                    "Description": "每次攻击有30%几率造成额外50%暴击伤害",
+                    "Value": 0.5,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "WoodenStaff",
+            "Name": "木法杖",
+            "WeaponType": 2,
+            "CompatibleClasses": [1],
+            "Rarity": 3,
+            "BaseAttack": 70,
+            "BaseDefense": 5,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "MagicBoost",
+                    "EffectName": "魔力增幅",
+                    "Description": "技能伤害提升10%",
+                    "Value": 0.1,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "FireStaff",
+            "Name": "火焰法杖",
+            "WeaponType": 2,
+            "CompatibleClasses": [1],
+            "Rarity": 4,
+            "BaseAttack": 100,
+            "BaseDefense": 8,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "FireMastery",
+                    "EffectName": "火焰精通",
+                    "Description": "火焰技能伤害提升30%",
+                    "Value": 0.3,
+                    "Duration": 0
+                },
+                {
+                    "EffectId": "Burn",
+                    "EffectName": "灼烧",
+                    "Description": "释放技能后使目标灼烧，每回合造成20%攻击力伤害，持续2回合",
+                    "Value": 0.2,
+                    "Duration": 2
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "BasicGrimoire",
+            "Name": "基础法术书",
+            "WeaponType": 3,
+            "CompatibleClasses": [1],
+            "Rarity": 3,
+            "BaseAttack": 65,
+            "BaseDefense": 0,
+            "BaseMaxHp": 50,
+            "Effects": [
+                {
+                    "EffectId": "ArcaneKnowledge",
+                    "EffectName": "奥术知识",
+                    "Description": "增加10%暴击率",
+                    "Value": 0.1,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "AncientGrimoire",
+            "Name": "远古法术书",
+            "WeaponType": 3,
+            "CompatibleClasses": [1],
+            "Rarity": 4,
+            "BaseAttack": 95,
+            "BaseDefense": 0,
+            "BaseMaxHp": 100,
+            "Effects": [
+                {
+                    "EffectId": "AncientWisdom",
+                    "EffectName": "远古智慧",
+                    "Description": "增加20%暴击伤害",
+                    "Value": 0.2,
+                    "Duration": 0
+                },
+                {
+                    "EffectId": "ManaFlow",
+                    "EffectName": "魔力流动",
+                    "Description": "每回合恢复5%最大生命值",
+                    "Value": 0.05,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "HuntersBow",
+            "Name": "猎人之弓",
+            "WeaponType": 4,
+            "CompatibleClasses": [2],
+            "Rarity": 3,
+            "BaseAttack": 75,
+            "BaseDefense": 0,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "Precision",
+                    "EffectName": "精准射击",
+                    "Description": "增加15%暴击率",
+                    "Value": 0.15,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "WindBow",
+            "Name": "风之弓",
+            "WeaponType": 4,
+            "CompatibleClasses": [2],
+            "Rarity": 4,
+            "BaseAttack": 105,
+            "BaseDefense": 0,
+            "BaseMaxHp": 0,
+            "Effects": [
+                {
+                    "EffectId": "WindRush",
+                    "EffectName": "疾风冲刺",
+                    "Description": "速度增加20%",
+                    "Value": 0.2,
+                    "Duration": 0
+                },
+                {
+                    "EffectId": "MultiShot",
+                    "EffectName": "多重射击",
+                    "Description": "普通攻击有25%几率攻击额外一个目标",
+                    "Value": 0.25,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "HealingWand",
+            "Name": "治愈之杖",
+            "WeaponType": 5,
+            "CompatibleClasses": [3],
+            "Rarity": 3,
+            "BaseAttack": 40,
+            "BaseDefense": 0,
+            "BaseMaxHp": 100,
+            "Effects": [
+                {
+                    "EffectId": "HealBoost",
+                    "EffectName": "治愈增强",
+                    "Description": "治疗效果提升15%",
+                    "Value": 0.15,
+                    "Duration": 0
+                }
+            ],
+            "IconPath": ""
+        },
+        {
+            "WeaponId": "DivineWand",
+            "Name": "神圣之杖",
+            "WeaponType": 5,
+            "CompatibleClasses": [3],
+            "Rarity": 4,
+            "BaseAttack": 60,
+            "BaseDefense": 0,
+            "BaseMaxHp": 150,
+            "Effects": [
+                {
+                    "EffectId": "DivineHeal",
+                    "EffectName": "神圣治愈",
+                    "Description": "治疗效果提升30%",
+                    "Value": 0.3,
+                    "Duration": 0
+                },
+                {
+                    "EffectId": "Blessing",
+                    "EffectName": "神圣祝福",
+                    "Description": "治疗后为目标增加10%防御力，持续2回合",
+                    "Value": 0.1,
+                    "Duration": 2
+                }
+            ],
+            "IconPath": ""
+        }
+    ]
+}

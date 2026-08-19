@@ -1,0 +1,104 @@
+{
+    "Waves":  [
+                  {
+                      "WaveNumber":  1,
+                      "EnemyIds": [
+                                       "Slime",
+                                       "Slime"
+                                   ], "Enemies": [{"EnemyId":"Slime","AttributeMultiplier":1.0},{"EnemyId":"Slime","AttributeMultiplier":1.0}],
+                      "SpawnInterval":  2.0,
+                      "WaveDelaySeconds":  3,
+                      "Enemies":  [
+                                      {
+                                          "EnemyId":  "Slime",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Slime",
+                                          "AttributeMultiplier":  1
+                                      }
+                                  ]
+                  },
+                  {
+                      "WaveNumber":  2,
+                      "EnemyIds": [
+                                       "Slime",
+                                       "Goblin"
+                                   ], "Enemies": [{"EnemyId":"Slime","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0}],
+                      "SpawnInterval":  2.0,
+                      "WaveDelaySeconds":  3,
+                      "Enemies":  [
+                                      {
+                                          "EnemyId":  "Slime",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Goblin",
+                                          "AttributeMultiplier":  1
+                                      }
+                                  ]
+                  },
+                  {
+                      "WaveNumber":  3,
+                      "EnemyIds": [
+                                       "Goblin",
+                                       "Goblin",
+                                       "Skeleton"
+                                   ], "Enemies": [{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0}],
+                      "SpawnInterval":  2.0,
+                      "WaveDelaySeconds":  3,
+                      "Enemies":  [
+                                      {
+                                          "EnemyId":  "Goblin",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Goblin",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Skeleton",
+                                          "AttributeMultiplier":  1
+                                      }
+                                  ]
+                  },
+                  {
+                      "WaveNumber":  4,
+                      "EnemyIds": [
+                                       "DarkMage",
+                                       "Goblin",
+                                       "Skeleton"
+                                   ], "Enemies": [{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0}],
+                      "SpawnInterval":  2.0,
+                      "WaveDelaySeconds":  5,
+                      "Enemies":  [
+                                      {
+                                          "EnemyId":  "DarkMage",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Goblin",
+                                          "AttributeMultiplier":  1
+                                      },
+                                      {
+                                          "EnemyId":  "Skeleton",
+                                          "AttributeMultiplier":  1
+                                      }
+                                  ]
+                  },
+                  {
+                      "WaveNumber":  5,
+                      "EnemyIds": [
+                                       "Boss_Dragon"
+                                   ], "Enemies": [{"EnemyId":"Boss_Dragon","AttributeMultiplier":1.0}],
+                      "SpawnInterval":  3.0,
+                      "WaveDelaySeconds":  5,
+                      "Enemies":  [
+                                      {
+                                          "EnemyId":  "Boss_Dragon",
+                                          "AttributeMultiplier":  1
+                                      }
+                                  ]
+                  }
+              ]
+}

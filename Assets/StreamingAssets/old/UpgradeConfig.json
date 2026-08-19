@@ -1,0 +1,78 @@
+{
+    "Upgrades": [
+        {
+            "ItemType": "Character",
+            "MinRarity": 4,
+            "MaxRarity": 5,
+            "MinLevel": 1,
+            "MaxLevel": 80,
+            "GoldBase": 100,
+            "GoldPerLevel": 4,
+            "Materials": [
+                { "ItemId": "UpgradeStone", "BaseCount": 0, "CountPerLevel": 10 },
+                { "ItemId": "RefiningAgent", "BaseCount": 0, "CountPerLevel": 5 },
+                { "ItemId": "EnchantDust", "BaseCount": 0, "CountPerLevel": 3 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 1,
+            "MaxLevel": 80,
+            "GoldBase": 50,
+            "GoldPerLevel": 1.5,
+            "Materials": [
+                { "ItemId": "UpgradeStone", "BaseCount": 5, "CountPerLevel": 0.15 },
+                { "ItemId": "RefiningAgent", "BaseCount": 3, "CountPerLevel": 0.09 },
+                { "ItemId": "EnchantDust", "BaseCount": 2, "CountPerLevel": 0.06 },
+                { "ItemId": "MagicCrystal", "BaseCount": 1, "CountPerLevel": 0.03 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 4,
+            "MaxRarity": 5,
+            "MinLevel": 1,
+            "MaxLevel": 80,
+            "GoldBase": 50,
+            "GoldPerLevel": 2.5,
+            "Materials": [
+                { "ItemId": "UpgradeStone", "BaseCount": 5, "CountPerLevel": 0.15 },
+                { "ItemId": "RefiningAgent", "BaseCount": 3, "CountPerLevel": 0.09 },
+                { "ItemId": "EnchantDust", "BaseCount": 2, "CountPerLevel": 0.06 },
+                { "ItemId": "MagicCrystal", "BaseCount": 1, "CountPerLevel": 0.03 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 1,
+            "MaxLevel": 15,
+            "GoldBase": 0,
+            "GoldPerLevel": 100,
+            "Materials": [
+                { "ItemId": "UpgradeStone", "BaseCount": 5, "CountPerLevel": 0.2 },
+                { "ItemId": "RefiningAgent", "BaseCount": 3, "CountPerLevel": 0.12 },
+                { "ItemId": "EnchantDust", "BaseCount": 2, "CountPerLevel": 0.08 },
+                { "ItemId": "MagicCrystal", "BaseCount": 1, "CountPerLevel": 0.04 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 4,
+            "MaxRarity": 5,
+            "MinLevel": 1,
+            "MaxLevel": 15,
+            "GoldBase": 0,
+            "GoldPerLevel": 100,
+            "Materials": [
+                { "ItemId": "UpgradeStone", "BaseCount": 5, "CountPerLevel": 0.2 },
+                { "ItemId": "RefiningAgent", "BaseCount": 3, "CountPerLevel": 0.12 },
+                { "ItemId": "EnchantDust", "BaseCount": 2, "CountPerLevel": 0.08 },
+                { "ItemId": "MagicCrystal", "BaseCount": 1, "CountPerLevel": 0.04 }
+            ]
+        }
+    ]
+}

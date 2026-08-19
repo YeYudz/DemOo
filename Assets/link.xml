@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linker>
+    <assembly fullname="HotUpdate" preserve="all" />
+
+    <assembly fullname="Assembly-CSharp">
+        <type fullname="Game.HotUpdate.IHotUpdateEntry" preserve="all" />
+        <type fullname="Game.HotUpdate.HotUpdateEntryFinder" preserve="all" />
+        <type fullname="Game.HybridCLR.HybridCLRManager" preserve="all" />
+    </assembly>
+
+    <assembly fullname="mscorlib">
+        <type fullname="System.Reflection.Assembly" preserve="all" />
+        <type fullname="System.Reflection.AssemblyName" preserve="all" />
+        <type fullname="System.Type" preserve="all" />
+        <type fullname="System.Activator" preserve="all" />
+        <type fullname="System.Linq.Enumerable" preserve="all" />
+    </assembly>
+</linker>

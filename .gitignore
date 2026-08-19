@@ -1,0 +1,63 @@
+# ===== Unity 生成目录 =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+CrashReport/
+Screencap/
+
+# Unity 生成文件
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.prefab.orig
+*.unity.orig
+sysinfo.txt
+*.stackdump
+
+# ===== IDE / 编辑器本地配置 =====
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+*.vstest.xml
+.vsconfig
+
+# ===== HybridCLR 构建输出 =====
+HybridCLRData/
+Build_*/
+Scripts/Gen/
+
+# ===== YooAsset 构建输出 / 内置包 =====
+Bundles/
+Assets/StreamingAssets/yoo/
+
+# ===== HybridCLR 热更程序集产物（由 CopyHotUpdateDlls.bat 生成） =====
+Assets/HotUpdateCodeAssets/
+
+# ===== 运行时工具状态 / Agent 技能 =====
+.agents/
+.yokiframe/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 其他 =====
+*.log
+*.tmp
+*.temp

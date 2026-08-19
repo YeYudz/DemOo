@@ -1,0 +1,208 @@
+{
+    "Dungeons": [
+        {
+            "DungeonId": "Dungeon_001",
+            "DungeonName": "新手村",
+            "BaseExp": 100,
+            "GoldReward": 50,
+            "DropRewards": [
+                {
+                    "ItemType": "Consumable",
+                    "ItemId": "Diamond",
+                    "MinCount": 160,
+                    "MaxCount": 480,
+                    "DropRate": 1.0
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "WarriorHelm",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.8
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "IronGauntlets",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.9
+                }
+            ],
+            "Waves": [
+                {
+                    "WaveNumber": 1,
+                    "EnemyIds": ["Slime", "Slime", "Slime"], "Enemies": [{"EnemyId":"Slime","AttributeMultiplier":1.0},{"EnemyId":"Slime","AttributeMultiplier":1.0},{"EnemyId":"Slime","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 2,
+                    "EnemyIds": ["Slime", "Goblin", "Slime"], "Enemies": [{"EnemyId":"Slime","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Slime","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                }
+            ]
+        },
+        {
+            "DungeonId": "Dungeon_002",
+            "DungeonName": "幽暗森林",
+            "BaseExp": 200,
+            "GoldReward": 100,
+            "DropRewards": [
+                {
+                    "ItemType": "Consumable",
+                    "ItemId": "Diamond",
+                    "MinCount": 320,
+                    "MaxCount": 640,
+                    "DropRate": 1.0
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "WarriorHelm",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.9
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "SwiftBoots",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.8
+                }
+            ],
+            "Waves": [
+                {
+                    "WaveNumber": 1,
+                    "EnemyIds": ["Goblin", "Goblin", "Goblin", "Goblin"], "Enemies": [{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 2,
+                    "EnemyIds": ["Skeleton", "Goblin", "Slime","Skeleton"], "Enemies": [{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"Slime","AttributeMultiplier":1.5},{"EnemyId":"Skeleton","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 3,
+                    "EnemyIds": ["Skeleton", "Skeleton","Skeleton","Skeleton"], "Enemies": [{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 5
+                }
+            ]
+        },
+        {
+            "DungeonId": "Dungeon_003",
+            "DungeonName": "龙穴外层",
+            "BaseExp": 300,
+            "GoldReward": 100,
+            "DropRewards": [
+                {
+                    "ItemType": "Consumable",
+                    "ItemId": "Diamond",
+                    "MinCount": 480,
+                    "MaxCount": 800,
+                    "DropRate": 1.0
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "HolyWrists",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.5
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "HealerVeil",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.5
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "PriestRobe",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.5
+                },
+                {
+                    "ItemType": "Relic",
+                    "ItemId": "HealerBoots",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.5
+                }
+            ],
+            "Waves": [
+                {
+                    "WaveNumber": 1,
+                    "EnemyIds": ["Skeleton", "Goblin","DarkMage"], "Enemies": [{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Goblin","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 2,
+                    "EnemyIds": ["DarkMage", "Skeleton", "DarkMage"], "Enemies": [{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 3,
+                    "EnemyIds": ["DarkMage", "DarkMage", "DarkMage", "DarkMage"], "Enemies": [{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 5
+                }
+            ]
+        },
+        {
+            "DungeonId": "Dungeon_004",
+            "DungeonName": "龙穴深处",
+            "BaseExp": 500,
+            "GoldReward": 300,
+            "DropRewards": [
+                {
+                    "ItemType": "Consumable",
+                    "ItemId": "Diamond",
+                    "MinCount": 640,
+                    "MaxCount": 960,
+                    "DropRate": 1.0
+                },
+                {
+                    "ItemType": "Weapon",
+                    "ItemId": "FlameSword",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.7
+                },
+                {
+                    "ItemType": "Weapon",
+                    "ItemId": "WorldBow",
+                    "MinCount": 1,
+                    "MaxCount": 1,
+                    "DropRate": 0.3
+                }
+            ],
+            "Waves": [
+                {
+                    "WaveNumber": 1,
+                    "EnemyIds": ["Skeleton", "Skeleton", "DarkMage", "DarkMage"], "Enemies": [{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"Skeleton","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 3
+                },
+                {
+                    "WaveNumber": 2,
+                    "EnemyIds": ["DarkMage", "DarkMage","DarkMage", "DarkMage"], "Enemies": [{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 2.0,
+                    "WaveDelaySeconds": 5
+                },
+                {
+                    "WaveNumber": 3,
+                    "EnemyIds": ["DarkMage", "Boss_Dragon", "DarkMage"], "Enemies": [{"EnemyId":"DarkMage","AttributeMultiplier":1.0},{"EnemyId":"Boss_Dragon","AttributeMultiplier":1.0},{"EnemyId":"DarkMage","AttributeMultiplier":1.0}],
+                    "SpawnInterval": 3.0,
+                    "WaveDelaySeconds": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "Decompositions": [
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 1,
+            "MaxLevel": 40,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 10 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 5 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 3 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 1 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 41,
+            "MaxLevel": 80,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 20 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 10 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 6 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 3 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 4,
+            "MaxRarity": 4,
+            "MinLevel": 1,
+            "MaxLevel": 40,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 30 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 15 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 9 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 5 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 4,
+            "MaxRarity": 4,
+            "MinLevel": 41,
+            "MaxLevel": 80,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 40 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 20 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 12 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 8 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 5,
+            "MaxRarity": 5,
+            "MinLevel": 1,
+            "MaxLevel": 40,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 50 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 30 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 15 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 10 }
+            ]
+        },
+        {
+            "ItemType": "Weapon",
+            "MinRarity": 5,
+            "MaxRarity": 5,
+            "MinLevel": 41,
+            "MaxLevel": 80,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 80 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 60 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 30 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 20 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 1,
+            "MaxLevel": 7,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 10 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 5 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 3 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 1 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 3,
+            "MaxRarity": 3,
+            "MinLevel": 8,
+            "MaxLevel": 15,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 20 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 10 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 6 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 3 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 4,
+            "MaxRarity": 4,
+            "MinLevel": 1,
+            "MaxLevel": 7,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 30 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 15 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 9 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 5 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 4,
+            "MaxRarity": 4,
+            "MinLevel": 8,
+            "MaxLevel": 15,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 40 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 20 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 12 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 8 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 5,
+            "MaxRarity": 5,
+            "MinLevel": 1,
+            "MaxLevel": 7,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 50 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 30 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 15 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 10 }
+            ]
+        },
+        {
+            "ItemType": "Relic",
+            "MinRarity": 5,
+            "MaxRarity": 5,
+            "MinLevel": 8,
+            "MaxLevel": 15,
+            "Materials": [
+                { "MaterialId": "UpgradeStone", "MaterialCount": 80 },
+                { "MaterialId": "RefiningAgent", "MaterialCount": 60 },
+                { "MaterialId": "EnchantDust", "MaterialCount": 30 },
+                { "MaterialId": "MagicCrystal", "MaterialCount": 20 }
+            ]
+        }
+    ]
+}

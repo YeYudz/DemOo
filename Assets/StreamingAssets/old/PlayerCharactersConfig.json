@@ -1,0 +1,3694 @@
+{
+    "Characters": [
+        {
+            "CharacterId": "Warrior",
+            "Name": "战士",
+            "Rarity": 4,
+            "MaxHp": 1000,
+            "Speed": 100,
+            "Attack": 150,
+            "Defense": 80,
+            "Level": 10,
+            "CritRate": 0.1,
+            "CritDamage": 0.5,
+            "DamageBonus": 0,
+            "ResistancePenetration": 0,
+            "Skills": [
+                "Warrior_NormalAttack",
+                "Warrior_Skill1",
+                "Warrior_Skill2",
+                "Warrior_Ultimate"
+            ],
+            "IconColorR": 0.8,
+            "IconColorG": 0.3,
+            "IconColorB": 0.3,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 10,
+                    "Description": "当前生命值百分比≤50%时，造成的伤害提高10%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Warrior_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 15,
+                    "Description": "使用任意技能卡包括终结技时，提升自身15暴击率，持续三回合",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Warrior_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 25,
+                    "Description": "进入战斗后，受到致命攻击时不会死亡，立即回复至生命上限的25%（仅触发1次）",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Warrior_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 12,
+                    "Description": "提升自身速度12%（基础速度*(1+12%)）",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Warrior_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 20,
+                    "Description": "当前生命值百分比≤50%时，终结技造成的伤害提高20%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Warrior_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 70,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的70%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 77,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的77%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 83,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的83%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 90,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的90%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 97,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的97%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 103,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的103%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 110,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Warrior的110%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成120%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 127,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成127%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 133,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成133%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 140,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成140%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 147,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成147%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 153,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成153%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 160,
+                            "Value2": 0,
+                            "Description": "消耗自身生命上限30%的生命值，提升30%攻击力持续三回合，并对指定敌方单体造成160%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 100,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成100%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 107,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成107%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 113,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成113%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成120%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 127,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成127%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 133,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成133%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 140,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成140%攻击力的伤害，并使该目标速度降低12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 130,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成130%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 138,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成138%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 147,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成147%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 155,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成155%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 163,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成163%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 172,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成172%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 180,
+                            "Value2": 0,
+                            "Description": "将当前生命值转化为生命上限的50%，根据转化量提升攻击力，对敌方全体造成180%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "UpgradeStone",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CharacterId": "Mage",
+            "Name": "法师",
+            "Rarity": 5,
+            "MaxHp": 600,
+            "Speed": 120,
+            "Attack": 200,
+            "Defense": 40,
+            "Level": 10,
+            "CritRate": 0.15,
+            "CritDamage": 0.6,
+            "DamageBonus": 0,
+            "ResistancePenetration": 0,
+            "Skills": [
+                "Mage_NormalAttack",
+                "Mage_Skill1",
+                "Mage_Skill2",
+                "Mage_Ultimate"
+            ],
+            "IconColorR": 0.3,
+            "IconColorG": 0.3,
+            "IconColorB": 0.8,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 0,
+                    "Description": "使技能1消耗的能量变为0",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Mage_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 5,
+                    "Description": "使用任意技能卡包括终结技时，恢复自身5%生命上限的生命值",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Mage_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 70,
+                    "Description": "使用技能2时有70%概率恢复1点能量",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Mage_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 30,
+                    "Description": "使技能1对指定我方单体目标提升的攻击力变为30%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Mage_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 0,
+                    "Description": "使用终结技时，恢复与弃置的卡牌数量相等数量的能量",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Mage_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 30,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的30%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 33,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的33%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 37,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的37%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 40,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的40%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 43,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的43%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 47,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的47%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 50,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Mage的50%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 20,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升20%攻击力，持续二回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 22,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升22%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 24,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升24%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 27,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升27%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 29,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升29%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 31,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升31%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 34,
+                            "Value2": 0,
+                            "Description": "指定我方单体目标提升34%攻击力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 50,
+                            "Value2": 0,
+                            "Description": "50%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 55,
+                            "Value2": 0,
+                            "Description": "55%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 60,
+                            "Value2": 0,
+                            "Description": "60%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 65,
+                            "Value2": 0,
+                            "Description": "65%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 70,
+                            "Value2": 0,
+                            "Description": "70%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 75,
+                            "Value2": 0,
+                            "Description": "75%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 80,
+                            "Value2": 0,
+                            "Description": "80%概率从牌库中随机抽取2张手牌",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "弃置当前所有手牌，从牌库中抽取与弃置数量相等的手牌（若牌库剩余不足则全部抽完）",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "RefiningAgent",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CharacterId": "Archer",
+            "Name": "弓箭手",
+            "Rarity": 5,
+            "MaxHp": 500,
+            "Speed": 150,
+            "Attack": 180,
+            "Defense": 30,
+            "Level": 1,
+            "CritRate": 0.2,
+            "CritDamage": 0.7,
+            "DamageBonus": 0,
+            "ResistancePenetration": 0,
+            "Skills": [
+                "Archer_NormalAttack",
+                "Archer_Skill1",
+                "Archer_Skill2",
+                "Archer_Ultimate"
+            ],
+            "IconColorR": 0.3,
+            "IconColorG": 0.8,
+            "IconColorB": 0.3,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 50,
+                    "Description": "使用技能1时，50%概率恢复2点能量（1回合触发冷却）",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Archer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 30,
+                    "Description": "使用技能1时，被指定的我方目标在行动后速度提升30%，持续一回合",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Archer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 100,
+                    "Description": "Archer自身普通攻击造成伤害时必定暴击",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Archer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 12,
+                    "Description": "Archer在场时，我方全体造成伤害时无视敌方12%防御力",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Archer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 0,
+                    "Description": "使技能1对指定我方目标造成的伤害提高效果的持续时间增加一回合",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Archer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 105,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的105%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 108,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的108%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 110,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的110%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 113,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的113%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 115,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的115%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 118,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的118%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Archer的120%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 0,
+                            "Value2": 20,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高20%，持续一回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 0,
+                            "Value2": 23,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高23%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 0,
+                            "Value2": 27,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高27%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 0,
+                            "Value2": 30,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高30%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 0,
+                            "Value2": 33,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高33%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 0,
+                            "Value2": 37,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高37%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 0,
+                            "Value2": 40,
+                            "Description": "指定我方单体目标使其行动提前100%，并使其造成的伤害提高40%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成120%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 123,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成123%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 127,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成127%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 130,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成130%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 133,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成133%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 137,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成137%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 140,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成140%攻击力的伤害，并使该目标降低12%防御力，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 20,
+                            "Value2": 10,
+                            "Description": "使我方全体攻击力提高20%，暴击伤害提高10%，持续二回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 23,
+                            "Value2": 12,
+                            "Description": "使我方全体攻击力提高23%，暴击伤害提高12%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 25,
+                            "Value2": 14,
+                            "Description": "使我方全体攻击力提高25%，暴击伤害提高14%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 28,
+                            "Value2": 16,
+                            "Description": "使我方全体攻击力提高28%，暴击伤害提高16%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 30,
+                            "Value2": 18,
+                            "Description": "使我方全体攻击力提高30%，暴击伤害提高18%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 33,
+                            "Value2": 21,
+                            "Description": "使我方全体攻击力提高33%，暴击伤害提高21%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 35,
+                            "Value2": 24,
+                            "Description": "使我方全体攻击力提高35%，暴击伤害提高24%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CharacterId": "Healer",
+            "Name": "治疗师",
+            "Rarity": 4,
+            "MaxHp": 700,
+            "Speed": 90,
+            "Attack": 50,
+            "Defense": 50,
+            "Level": 8,
+            "CritRate": 0.05,
+            "CritDamage": 0.4,
+            "DamageBonus": 0,
+            "ResistancePenetration": 0,
+            "Skills": [
+                "Healer_NormalAttack",
+                "Healer_Skill1",
+                "Healer_Skill2",
+                "Healer_Ultimate"
+            ],
+            "IconColorR": 0.8,
+            "IconColorG": 0.8,
+            "IconColorB": 0.3,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 10,
+                    "Description": "Healer提供的治疗量提高10%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Healer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 15,
+                    "Description": "提高自身生命上限15%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Healer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 1,
+                    "Description": "自身受到攻击后恢复1点能量（1回合触发冷却）",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Healer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 10,
+                    "Description": "释放终结技时，对当前生命值百分比≤50%的我方目标治疗量额外提高10%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Healer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 100,
+                    "Description": "施放终结技后，立刻使自己行动提前100%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Healer_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 10,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的10%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 13,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的13%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 17,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的17%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 20,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的20%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 23,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的23%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 27,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的27%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 30,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Healer的30%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 11,
+                            "Value2": 50,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的11%生命上限+50的生命值",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 13,
+                            "Value2": 82,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的13%生命上限+82的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 15,
+                            "Value2": 113,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的15%生命上限+113的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 17,
+                            "Value2": 145,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的17%生命上限+145的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 19,
+                            "Value2": 177,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的19%生命上限+177的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 22,
+                            "Value2": 208,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的22%生命上限+208的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 24,
+                            "Value2": 240,
+                            "Description": "立即为指定我方单体回复等同于Healer自身的24%生命上限+240的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 10,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低10%，持续二回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 11,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低11%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 13,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低13%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 14,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低14%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 15,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低15%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 17,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低17%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 18,
+                            "Value2": 0,
+                            "Description": "使指定敌方单体造成的伤害降低18%，持续二回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 14,
+                            "Value2": 70,
+                            "Description": "立即为我方全体回复等同于Healer自身14%生命上限+70的生命值",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 17,
+                            "Value2": 108,
+                            "Description": "立即为我方全体回复等同于Healer自身17%生命上限+108的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 19,
+                            "Value2": 147,
+                            "Description": "立即为我方全体回复等同于Healer自身19%生命上限+147的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 22,
+                            "Value2": 185,
+                            "Description": "立即为我方全体回复等同于Healer自身22%生命上限+185的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 25,
+                            "Value2": 223,
+                            "Description": "立即为我方全体回复等同于Healer自身25%生命上限+223的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 27,
+                            "Value2": 262,
+                            "Description": "立即为我方全体回复等同于Healer自身27%生命上限+262的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 30,
+                            "Value2": 300,
+                            "Description": "立即为我方全体回复等同于Healer自身30%生命上限+300的生命值",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "MagicCrystal",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CharacterId": "Knight",
+            "Name": "骑士",
+            "Rarity": 5,
+            "MaxHp": 1500,
+            "Speed": 80,
+            "Attack": 200,
+            "Defense": 120,
+            "Level": 1,
+            "CritRate": 0.08,
+            "CritDamage": 0.5,
+            "DamageBonus": 0.1,
+            "ResistancePenetration": 0,
+            "Skills": [
+                "Knight_NormalAttack",
+                "Knight_Skill1",
+                "Knight_Skill2",
+                "Knight_Ultimate"
+            ],
+            "IconColorR": 0.9,
+            "IconColorG": 0.7,
+            "IconColorB": 0.2,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 100,
+                    "Description": "战斗开始时，为我方全体提供护盾，护盾量等同于技能1提供的护盾量的100%，持续3回合",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Knight_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 100,
+                    "Description": "使技能1提供的护盾量提高100%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Knight_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 12,
+                    "Description": "施放普攻时使目标的防御力降低12%，持续3回合",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Knight_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 10,
+                    "Description": "陷入惶恐状态的敌方目标，增添速度降低10%的效果",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Knight_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 50,
+                    "Description": "每有1个队友持有护盾，Knight造成的伤害提高50%，最高不超过150%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Knight_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 60,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的60%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 65,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的65%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 70,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的70%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 75,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的75%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 80,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的80%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 85,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的85%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 90,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Knight的90%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 12,
+                            "Value2": 120,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身12%防御力+120伤害的护盾，持续三回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 14,
+                            "Value2": 140,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身14%防御力+140伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 16,
+                            "Value2": 160,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身16%防御力+160伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 18,
+                            "Value2": 180,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身18%防御力+180伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 20,
+                            "Value2": 200,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身20%防御力+200伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 22,
+                            "Value2": 220,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身22%防御力+220伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 24,
+                            "Value2": 240,
+                            "Description": "为我方全体提供能够抵消等同于Knight自身24%防御力+240伤害的护盾，持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 100,
+                            "Value2": 20,
+                            "Description": "对指定敌方单体造成等同于Knight自身100%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低20%，持续一回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 105,
+                            "Value2": 22,
+                            "Description": "对指定敌方单体造成等同于Knight自身105%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低22%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 110,
+                            "Value2": 24,
+                            "Description": "对指定敌方单体造成等同于Knight自身110%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低24%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 115,
+                            "Value2": 26,
+                            "Description": "对指定敌方单体造成等同于Knight自身115%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低26%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 120,
+                            "Value2": 28,
+                            "Description": "对指定敌方单体造成等同于Knight自身120%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低28%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 125,
+                            "Value2": 30,
+                            "Description": "对指定敌方单体造成等同于Knight自身125%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低30%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 130,
+                            "Value2": 32,
+                            "Description": "对指定敌方单体造成等同于Knight自身130%攻击力的伤害，同时有65%的固定概率使受到攻击的敌方目标攻击力降低32%，持续一回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成120%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 130,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成130%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 140,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成140%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 150,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成150%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 160,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成160%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 170,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成170%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 180,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成180%攻击力的伤害，并使该目标陷入惶恐状态（我方对其暴击伤害+15%），持续三回合",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CharacterId": "Assassin",
+            "Name": "刺客",
+            "Rarity": 5,
+            "MaxHp": 700,
+            "Speed": 180,
+            "Attack": 280,
+            "Defense": 40,
+            "Level": 1,
+            "CritRate": 0.3,
+            "CritDamage": 0.8,
+            "DamageBonus": 0.15,
+            "ResistancePenetration": 0.1,
+            "Skills": [
+                "Assassin_NormalAttack",
+                "Assassin_Skill1",
+                "Assassin_Skill2",
+                "Assassin_Ultimate"
+            ],
+            "IconColorR": 0.8,
+            "IconColorG": 0.2,
+            "IconColorB": 0.6,
+            "StarEffects": [
+                {
+                    "StarLevel": 1,
+                    "EffectType": "HandlerEffect",
+                    "Value": 15,
+                    "Description": "对当前生命值百分比≤80%的敌方目标造成伤害时，暴击率提高15%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Assassin_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 2,
+                    "EffectType": "HandlerEffect",
+                    "Value": 20,
+                    "Description": "释放普攻后，Assassin的下一次行动提前20%",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Assassin_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 3,
+                    "EffectType": "HandlerEffect",
+                    "Value": 1,
+                    "Description": "Assassin消灭敌方目标时，恢复1点能量",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Assassin_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 4,
+                    "EffectType": "HandlerEffect",
+                    "Value": 0,
+                    "Description": "技能1的加速效果可以叠加，最多叠加2层",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Assassin_Shard",
+                            "Count": 1
+                        }
+                    ]
+                },
+                {
+                    "StarLevel": 5,
+                    "EffectType": "HandlerEffect",
+                    "Value": 25,
+                    "Description": "神鬼无赦状态下，Assassin对敌方目标造成伤害时无视目标25%防御力",
+                    "UnlockCost": [
+                        {
+                            "ItemId": "Assassin_Shard",
+                            "Count": 1
+                        }
+                    ]
+                }
+            ],
+            "TalentEffects": [
+                {
+                    "SkillType": "NormalAttack",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 100,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的100%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 107,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的107%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 113,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的113%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 120,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的120%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 127,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的127%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 133,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的133%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 140,
+                            "Value2": 0,
+                            "Description": "对指定敌方单体造成等同于Assassin的140%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill1",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 110,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成110%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 122,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成122%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 133,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成133%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 145,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成145%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 157,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成157%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 168,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成168%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 180,
+                            "Value2": 0,
+                            "Description": "使Assassin的速度提高25%（持续2回合），并对指定敌方单体造成180%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Skill2",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 15
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 5
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 30
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 60
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 100
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 200
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 0,
+                            "Value2": 0,
+                            "Description": "使自身进入刺杀状态，持续二回合。刺杀状态下消灭敌方目标时立即行动提前100%并进入神鬼无赦状态",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 400
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SkillType": "Ultimate",
+                    "Effects": [
+                        {
+                            "Level": 1,
+                            "Value": 150,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成150%攻击力的伤害",
+                            "UpgradeCost": []
+                        },
+                        {
+                            "Level": 2,
+                            "Value": 168,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成168%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 10
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 3,
+                            "Value": 187,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成187%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 20
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 4,
+                            "Value": 205,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成205%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 40
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 5,
+                            "Value": 223,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成223%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 80
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 6,
+                            "Value": 242,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成242%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 150
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 8
+                                }
+                            ]
+                        },
+                        {
+                            "Level": 7,
+                            "Value": 260,
+                            "Value2": 0,
+                            "Description": "立即进入神鬼无赦状态（伤害提高50%，持续一回合），并对指定敌方单体造成260%攻击力的伤害",
+                            "UpgradeCost": [
+                                {
+                                    "ItemId": "TalentBook",
+                                    "Count": 500
+                                },
+                                {
+                                    "ItemId": "SkillGem",
+                                    "Count": 300
+                                },
+                                {
+                                    "ItemId": "EnchantDust",
+                                    "Count": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
